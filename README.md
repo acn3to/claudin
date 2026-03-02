@@ -3,12 +3,11 @@
 <!-- HERO -->
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/🧩_CLAUDIN-The_Ultimate_Claude_Code_Boilerplate-8B5CF6?style=for-the-badge&labelColor=1a1a2e">
-  <img alt="Claudin" src="https://img.shields.io/badge/🧩_CLAUDIN-The_Ultimate_Claude_Code_Boilerplate-7C3AED?style=for-the-badge&labelColor=f5f3ff">
-</picture>
+<img src="docs/assets/logo.png" alt="Claudin" width="140">
 
-<br><br>
+<br>
+
+# Claudin
 
 **From zero to productive in minutes.**<br>
 The complete scaffold for professional Claude Code environments.
