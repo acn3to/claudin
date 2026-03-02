@@ -3,7 +3,7 @@
 <!-- HERO -->
 <br>
 
-<img src="docs/assets/logo.png?v=2" alt="Claudin" width="140">
+<img src="https://raw.githubusercontent.com/acn3to/claudin/main/docs/assets/logo.png" alt="Claudin" width="140">
 
 <br>
 
