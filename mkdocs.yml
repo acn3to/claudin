@@ -51,8 +51,8 @@ theme:
   icon:
     repo: fontawesome/brands/github
     logo: material/puzzle
-  logo: assets/logo.svg
-  favicon: assets/favicon.svg
+  logo: assets/logo.png
+  favicon: assets/favicon.png
   language: en
 
 plugins:

@@ -14,10 +14,12 @@ hide:
 Drop a production-ready `.claude/` scaffold into any project. Security, cost optimization, and team conventions — all pre-configured.
 
 <div class="cl-buttons">
-
-[Get Started :material-rocket-launch:](getting-started/installation.md){ .md-button .md-button--primary }
-[View on GitHub :fontawesome-brands-github:](https://github.com/acn3to/claudin){ .md-button }
-
+<a href="getting-started/installation/" class="md-button md-button--primary">
+  🚀 Get Started
+</a>
+<a href="https://github.com/acn3to/claudin" class="md-button">
+  GitHub
+</a>
 </div>
 
 </div>

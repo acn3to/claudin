@@ -158,6 +158,52 @@
   background: rgba(255, 255, 255, 0.85);
 }
 
+[data-md-color-scheme="default"] .md-header .md-header__button,
+[data-md-color-scheme="default"] .md-header .md-logo,
+[data-md-color-scheme="default"] .md-header .md-search__icon,
+[data-md-color-scheme="default"] .md-header .md-header__topic {
+  color: #1e1b4b;
+}
+
+[data-md-color-scheme="default"] .md-header .md-header__title {
+  color: #1e1b4b;
+}
+
+[data-md-color-scheme="default"] .md-header .md-source {
+  color: #1e1b4b;
+}
+
+[data-md-color-scheme="default"] .md-header .md-source__repository {
+  color: #1e1b4b;
+}
+
+[data-md-color-scheme="default"] .md-header .md-source__icon svg {
+  fill: #1e1b4b;
+}
+
+[data-md-color-scheme="slate"] .md-header .md-header__button,
+[data-md-color-scheme="slate"] .md-header .md-logo,
+[data-md-color-scheme="slate"] .md-header .md-search__icon,
+[data-md-color-scheme="slate"] .md-header .md-header__topic {
+  color: #e2e0f0;
+}
+
+[data-md-color-scheme="slate"] .md-header .md-header__title {
+  color: #e2e0f0;
+}
+
+[data-md-color-scheme="slate"] .md-header .md-source {
+  color: #e2e0f0;
+}
+
+[data-md-color-scheme="slate"] .md-header .md-source__repository {
+  color: #e2e0f0;
+}
+
+[data-md-color-scheme="slate"] .md-header .md-source__icon svg {
+  fill: #e2e0f0;
+}
+
 .md-header[data-md-state="shadow"] {
   box-shadow: var(--cl-shadow-lg), var(--cl-shadow-glow);
 }
@@ -174,6 +220,14 @@
 
 [data-md-color-scheme="default"] .md-tabs {
   background: rgba(250, 250, 250, 0.8);
+}
+
+[data-md-color-scheme="default"] .md-tabs__link {
+  color: #374151;
+}
+
+[data-md-color-scheme="slate"] .md-tabs__link {
+  color: #c4b5fd;
 }
 
 .md-tabs__link {
