@@ -1,0 +1,46 @@
+# Package lock files (large, auto-generated, not useful for code understanding)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build and compiled outputs
+dist/
+build/
+.esbuild/
+.serverless/
+.next/
+out/
+
+# Coverage reports (large generated HTML/JSON)
+coverage/
+.nyc_output/
+*.lcov
+htmlcov/
+
+# Test snapshots
+__snapshots__/
+
+# Binary and media assets
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.woff
+*.woff2
+*.ttf
+*.eot
+
+# Minified files
+*.min.js
+*.min.css
+*.map
+
+# DynamoDB Offline
+.dynamodb/
+
+# Terraform state
+*.tfstate
+*.tfstate.backup
+.terraform/

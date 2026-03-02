@@ -1,0 +1,188 @@
+site_name: Claudin
+site_description: The ultimate Claude Code environment boilerplate — from zero to productive in minutes
+site_url: https://acn3to.github.io/claudin
+repo_url: https://github.com/acn3to/claudin
+repo_name: acn3to/claudin
+copyright: Copyright &copy; 2025 Claudin — MIT License
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.code.select
+    - content.tabs.link
+    - content.tooltips
+    - toc.follow
+    - announce.dismiss
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/puzzle
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+  language: en
+
+plugins:
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+  - tags
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      permalink_title: Link to this section
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      auto_title: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/acn3to/claudin
+      name: Claudin on GitHub
+  generator: false
+  tags:
+    Getting Started: getting-started
+    Features: features
+    Security: security
+    CI/CD: ci-cd
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: Thanks for the feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for the feedback! Help us improve by
+            <a href="https://github.com/acn3to/claudin/issues/new?title=[Docs]+{title}&body=Page:+{url}" target="_blank" rel="noopener">opening an issue</a>.
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - getting-started/index.md
+      - Installation: getting-started/installation.md
+      - Quick Start: getting-started/quick-start.md
+      - Project Profiles: getting-started/profiles.md
+  - Features:
+      - features/index.md
+      - CLAUDE.md: features/claude-md.md
+      - Skills: features/skills.md
+      - Hooks: features/hooks.md
+      - Agents: features/agents.md
+      - Rules: features/rules.md
+      - Plugins: features/plugins.md
+      - MCP Servers: features/mcp-servers.md
+      - Permissions: features/permissions.md
+      - Status Line: features/status-line.md
+      - Keybindings: features/keybindings.md
+      - Agent Teams: features/agent-teams.md
+      - Claudeignore: features/claudeignore.md
+      - Memory: features/memory.md
+  - IDE Integration:
+      - ide-integration/index.md
+      - VS Code: ide-integration/vscode.md
+      - CLI: ide-integration/cli.md
+  - CI/CD:
+      - ci-cd/index.md
+      - GitHub Actions: ci-cd/github-actions.md
+      - Headless Mode: ci-cd/headless-mode.md
+      - Agent SDK: ci-cd/agent-sdk.md
+  - Cost Optimization:
+      - cost-optimization/index.md
+      - Model Selection: cost-optimization/model-selection.md
+      - Context Management: cost-optimization/context-management.md
+      - Usage Tracking: cost-optimization/usage-tracking.md
+  - Security:
+      - security/index.md
+      - Hardening Guide: security/hardening.md
+      - Hook Patterns: security/hook-patterns.md
+  - Best Practices:
+      - best-practices/index.md
+      - CLAUDE.md Writing Guide: best-practices/claude-md-guide.md
+      - Skill Design: best-practices/skill-design.md
+      - Session Management: best-practices/session-management.md
